@@ -1,0 +1,50 @@
+h1
+{
+    font-size: 66px;
+    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: blink;
+    text-align: center;
+}
+a:hover
+{
+	color: orange;
+	
+}
+
+h2
+{
+	font-size: 46px;
+	text-align: left;
+}
+tr 
+{
+	 style.display: none;
+}
+
+td
+{
+    border: 1px solid black; /* auront une bordure de 1px */
+}
+table
+{
+	 background-color: white;
+	 boder : 1px solid black;
+	 width: 100% ;
+	 text-align: center;
+}
+body
+{
+
+              background-color: #e9ebee;              
+
+              font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+
+              font-size: 16px;
+
+              margin: 0 auto;
+
+              max-width: 800px;              
+
+          }
+}
