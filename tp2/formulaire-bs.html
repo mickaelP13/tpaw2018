@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+         <link rel="stylesheet" href="style.css" />
+         <link rel="stylesheet" href="bootstrap.min.css" />
+         <script type="text/javascript" src="formulaire.js"></script>
+        <title>formulaire BS</title>
+    </head>
+    <body> 
+    <h1>Saisie fiche "Personne"</h1>
+    	<form>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> M.
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Mme
+</label>
+<br></br>
+
+
+  <div class="form-group">
+    <label for="nom"> Nom</label>
+    <input type="text" class="form-control" id="Nom" placeholder="votre nom">
+  </div>
+  <div class="form-group">
+    <label for="prenom"> Prenom</label>
+    <input type="text" class="form-control" id="prenom" placeholder="prenom">
+  </div>
+  <div class="form-group">
+    <label for="adresse"> Adresse</label>
+    <input type="texte" class="form-control" id="adresse">
+  </div>
+  <div class="form-group">
+    <label for="date"> DATE</label>
+    <input type="date" class="form-control" id="date" placeholder="JJ/MM/AAAA">
+  </div>
+  <div class="form-group">
+    <label for="mail"> E-mail</label>
+    <input type="email" class="form-control" id="mail">
+  </div>
+ 
+  </div>
+  <button type="submit" class="btn btn-primary btn-lg" onclick="valider()"> Submit </button>
+</form>
+
+<div class="alert alert-success"  role="alert" id="resultat"></div>
+<div class="alert alert-warning" role="alert" id= "error">echec</div>
+
+    </body>
