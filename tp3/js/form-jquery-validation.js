@@ -12,7 +12,7 @@ $( document ).ready(function() {
      $('#myModal').modal("show");
      $(".modal-title").text("Bienvenue "+ $("#Nom").val());
      $(".modal-body").html('Vous etes né(e) le '+ $("#date").val());
-     $(".modal-body").html('<a href="http://maps.google.com/maps?q='+ $("#adresse").val()+'"> <img src="https://maps.googleapis.com/maps/api/staticmap?center='+$("#adresse").val()+ ',&zoom=13&size=400x400&KEY=AIzaSyChRJ1RFZ9U2fGWzhrZyS3GpNNF8DWz8TU"/></a> <br></br>'
+     $(".modal-body").html('<a href="http://maps.google.com/maps?q='+ $("#adresse").val()+'"> <img src="https://maps.googleapis.com/maps/api/staticmap?center='+$("#adresse").val()+ ',&zoom=13&size=400x400&KEY=AIzaSyCuZ2vhcwJSYFQeqP1eNYm2Qj3OV_Lwiy0"/></a> <br></br>'
      	+'et vous habitez <a href="http://maps.google.com/maps?q='+ $("#adresse").val()+'">'+ $("#adresse").val()+'</a>');
     
    
