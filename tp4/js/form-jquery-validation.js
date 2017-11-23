@@ -22,6 +22,8 @@ $("#firstname").keydown(function(){
     // Y mettre le code jQuery pour valider tous les champs du formulaire
     if ($("#name").val().length>4 && $("#firstname").val().length>4 && $("#mail").val().length>4 && $("#adresse").val().length>4 ){
 
+      document.querySelector("table tbody").innerHTML = "";
+
    /*  $('#myModal').modal("show");
      $(".modal-title").text("Bienvenue "+ $("#name").val());
      $(".modal-body").html('Vous etes né(e) le '+ $("#date").val()+'<br></br><a href="http://maps.google.com/maps?q='+ $("#adresse").val()+'"> <img src="https://maps.googleapis.com/maps/api/staticmap?center='+$("#adresse").val()+ 		',&zoom=13&size=400x400&KEY=AIzaSyAkmvI9DazzG9p77IShsz_Di7-5Qn7zkcg"/></a> <br></br>'
